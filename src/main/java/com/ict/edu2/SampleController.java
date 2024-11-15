@@ -107,7 +107,7 @@ public class SampleController {
 
     @PostMapping("/hi4")
     // 요청 자체가 json 방식일 때(key:value 방식)
-    public String[] getHi4(@RequestBody Map<String, String> ㄷ) {
+    public String[] getHi4(@RequestBody Map<String, String> params) {
         return new String[] {"Hello", "World"};
     }
 
